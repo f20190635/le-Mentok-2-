@@ -2214,8 +2214,8 @@ THE SECONDARY NAV WIDGETIZED AREA
   padding-bottom: 5px;
 }
 .secondary_nav_widgetized_area aside.widget {
-  margin-right: 30px;
-  margin-left: 30px;
+  margin-right: 10%;
+  margin-left: 10%;
   color: #ffffff;
 }
 .secondary_nav_widgetized_area aside.widget h4 {
@@ -3459,7 +3459,7 @@ section[class*="_section"] div[class*="_section"] .body-bg_section a i {
   background-color: #000000;
 }
 .entry a:hover {
-  background-color: #000000;
+  background-color: #f4f4f4;
   color: #ffffff;
 }
 /* DEPARTMENTS */
@@ -8681,7 +8681,8 @@ Font Icon
   font-weight: thin;
   font-variant: normal;
   text-transform: none;
-  line-height: 1;
+  line-height: 3;
+
   /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
