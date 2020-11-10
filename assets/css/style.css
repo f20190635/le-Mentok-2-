@@ -1,6 +1,6 @@
 @charset "UTF-8";
 /*!
-Theme Name: XENIA HTML
+Theme Name: LE MENTOK HTML
 Theme URI: http://plethorathemes.com/html/
 Description: Startup Business HTML Template based on twitter bootstrap.
 Version: 1.0.0
@@ -3520,9 +3520,10 @@ section[class*="_section"] div[class*="_section"] .body-bg_section a i {
 /*** TESTIMONIAL ***/
 .testimonial p {
   font-weight: 200;
-  text-align: left;
+  text-align: center;
   font-size: 18px;
-  padding-left: 94px;
+  padding-left: 0px;
+  padding-bottom: 50px;
   font-family: "Playfair Display", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-style: italic;
 }
@@ -8681,7 +8682,7 @@ Font Icon
   font-weight: thin;
   font-variant: normal;
   text-transform: none;
-  line-height: 3;
+  line-height: 2;
 
   /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
