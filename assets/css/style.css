@@ -1672,7 +1672,7 @@ THE HEADER ELEMENT
 */
 .header {
   font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #ffffff;
+  color: #000000;
   background-color: #171720 !important;
   width: 100%;
   height: auto;
@@ -1683,10 +1683,47 @@ THE HEADER ELEMENT
   position: relative;
   z-index: 9999;
 }
+@media (max-width: 991px) {
+  .mainbar{
+    display: none;
+  }
+}
+ @media (max-width: 991px) {
+   .image1{
+     display: none;
+   }
+}
+@media (max-width: 991px) {
+  .yehlo{
+    display: none;
+  }
+}
+@media (max-width: 991px) {
+  .yehlo1{
+    display: none;
+  }
+}
+.head1{
+  background-color:#ffffff;
+}
+.yehlo{
+  padding-top: 10px;
+  text-decoration:#000000;
+  text-decoration-color: #000000;
+
+}
+.image1{
+  padding-top: 20px;
+}
+.hello{
+  padding-top:20px;
+}
+
 .header .container,
 .header .container-fluid {
   position: relative;
   min-height: 64px;
+  background-color:#8B6F53;
 }
 .header a:link,
 .header a:visited {
@@ -2109,7 +2146,7 @@ a.menu-toggler {
   height: 0.9em;
   height: inherit;
   line-height: 0.9em;
-  color: #ffffff;
+  color: #8B6F53;
   background-color: transparent;
   -webkit-transition: all 600ms ease-in-out;
   -o-transition: all 600ms ease-in-out;
@@ -2117,12 +2154,12 @@ a.menu-toggler {
   -webkit-overflow-scrolling: touch;
 }
 a.menu-toggler:hover {
-  color: #ffffff;
+  color: #000000;
 }
 a.menu-toggler:hover span.lines,
 a.menu-toggler:hover span.lines:before,
 a.menu-toggler:hover span.lines:after {
-  background: #ffffff;
+  background: #8B6F5;
 }
 a.menu-toggler.active {
   -o-transform: translate(100%, -50%);
@@ -2143,7 +2180,7 @@ a.menu-toggler span.lines:after {
   cursor: pointer;
   height: 1px;
   width: 20px;
-  background: #ffffff;
+  background:#8B6F53;
   position: absolute;
   top: 22.95px;
   display: block;
@@ -2359,7 +2396,7 @@ THE SECONDARY NAV WIDGETIZED AREA
   font-weight: 200;
 }
 .head_panel .caption {
-  padding-top: 116px;
+  padding-top: 250px;
   padding-bottom: 72px;
 }
 .head_panel .owl-carousel .item {
@@ -2740,7 +2777,7 @@ THE SECONDARY NAV WIDGETIZED AREA
   background-size: cover;
 }
 .main section:nth-child(1) {
-  padding-top: 148px;
+  padding-top: 220px;
 }
 .main section .container .container {
   width: inherit;
@@ -6033,7 +6070,7 @@ Text block
 .text_block div {
   margin-top: 10px;
   margin-bottom: 24px;
-  
+
 }
 .text_block div i {
   border: 1px solid rgba(255, 255, 255, 0.1);
