@@ -1683,11 +1683,7 @@ THE HEADER ELEMENT
   position: relative;
   z-index: 9999;
 }
-@media (max-width: 991px) {
-  .mainbar{
-    display: none;
-  }
-}
+
  @media (max-width: 991px) {
    .image1{
      display: none;
