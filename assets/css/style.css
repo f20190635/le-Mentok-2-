@@ -718,6 +718,7 @@ fieldset[disabled] .btn-default {
   transition-property: color;
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
+  margin-bottom:0px;
 }
 .btn-primary:focus,
 .btn-primary:active:focus,
@@ -1690,7 +1691,12 @@ THE HEADER ELEMENT
    }
 }
 @media (max-width: 991px) {
-  .yehlo{
+  .call{
+    display: none;
+  }
+}
+@media (max-width: 991px) {
+  .call1{
     display: none;
   }
 }
@@ -1702,17 +1708,27 @@ THE HEADER ELEMENT
 .head1{
   background-color:#ffffff;
 }
-.yehlo{
+.call{
+  padding-top: 20px;
+  text-decoration:#000000;
+  text-decoration-color: #000000
+
+
+}
+.call1{
   padding-top: 10px;
   text-decoration:#000000;
-  text-decoration-color: #000000;
+  text-decoration-color: #000000
 
 }
 .image1{
   padding-top: 20px;
+  padding-left:80px;
 }
 .hello{
-  padding-top:20px;
+  margin-left: 125px;
+  height:150px;
+  width:150px;
 }
 
 .header .container,
