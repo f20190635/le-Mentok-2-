@@ -2133,7 +2133,7 @@ a.menu-toggler {
   display: block;
   font-size: 0.9em;
   position: absolute;
-  top: 50%;
+  top: 90%;
   transform: translate(0, -50%);
   right: 0px;
   cursor: pointer;
@@ -2141,8 +2141,8 @@ a.menu-toggler {
   min-width: 30px;
   height: 0.9em;
   height: inherit;
-  line-height: 0.9em;
-  color: #8B6F53;
+  line-height: 3em;
+  color: #ffffff;
   background-color: transparent;
   -webkit-transition: all 600ms ease-in-out;
   -o-transition: all 600ms ease-in-out;
@@ -2155,7 +2155,7 @@ a.menu-toggler:hover {
 a.menu-toggler:hover span.lines,
 a.menu-toggler:hover span.lines:before,
 a.menu-toggler:hover span.lines:after {
-  background: #8B6F5;
+  background: #ffffff;
 }
 a.menu-toggler.active {
   -o-transform: translate(100%, -50%);
@@ -2176,7 +2176,7 @@ a.menu-toggler span.lines:after {
   cursor: pointer;
   height: 1px;
   width: 20px;
-  background:#8B6F53;
+  background:#ffffff;
   position: absolute;
   top: 22.95px;
   display: block;
