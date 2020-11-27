@@ -13,6 +13,5 @@
     $headers ="From:$email_form\r\n";
       $headers .="Reply-To:$email_form\r\n";
       mail($to,$email_subject,$email_body,$headers);
-      header(" Location:contact.html")
-
+      header("Location:contact.html")
 ?>
