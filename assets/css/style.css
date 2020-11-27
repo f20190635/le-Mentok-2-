@@ -1732,7 +1732,12 @@ THE HEADER ELEMENT
   width:150px;
   text-align: center;
 }
+@@media (max-width: 991px){
+  .portfolio_item{
+    padding-top: 0px;
+  }
 
+}
 .header .container,
 .header .container-fluid {
   position: relative;
