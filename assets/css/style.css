@@ -1724,7 +1724,7 @@ THE HEADER ELEMENT
 .image1{
   padding-top: 20px;
   padding-left:80px;
-  
+
 }
 .hello{
   margin:auto;
@@ -2160,7 +2160,7 @@ a.menu-toggler {
   transform: translate(0, -50%);
   right: 0px;
   cursor: pointer;
-  padding: 24px 28.8px;
+  padding: 12px 28.8px;
   min-width: 30px;
   height: 0.9em;
   height: inherit;
@@ -2804,7 +2804,7 @@ THE SECONDARY NAV WIDGETIZED AREA
 }
 .section_header {
   font-family: "Playfair Display", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 10px 0 50px 0 !important;
+  margin: 80px 0 50px 0 !important;
   position: relative;
 }
 .section_header img {
