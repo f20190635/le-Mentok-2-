@@ -1728,9 +1728,11 @@ THE HEADER ELEMENT
 }
 .hello{
   margin:auto;
-  height:200px;
-  width:200px;
+  height:180px;
+  width:180px;
   text-align: center;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
 }
 @@media (max-width: 991px){
   .portfolio_item{
