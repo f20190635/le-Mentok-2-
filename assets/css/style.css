@@ -1705,6 +1705,11 @@ THE HEADER ELEMENT
     display: none;
   }
 }
+@media (max-width: 991px) {
+  .airpotlogo{
+    display: none;
+  }
+}
 .head1{
   background-color:#ffffff;
 }
@@ -1728,8 +1733,8 @@ THE HEADER ELEMENT
 }
 .hello{
   margin:auto;
-  height:180px;
-  width:180px;
+  height:210px;
+  width:210px;
   text-align: center;
   padding-bottom: 0px;
   margin-bottom: 0px;
