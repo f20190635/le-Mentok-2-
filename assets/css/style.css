@@ -2422,9 +2422,9 @@ THE SECONDARY NAV WIDGETIZED AREA
   font-weight: 200;
 }
 .head_panel .caption {
-  padding-top: 100px;
+  padding-top: 300px;
   padding-bottom: 72px;
-  margin-top: 350px;
+
 }
 .head_panel .owl-carousel .item {
   height: 700px;
@@ -6059,7 +6059,7 @@ Text block
 .text_block h3 {
   font-weight: 700;
   margin-bottom: 24px;
-  margin-left: 100px;
+  text-align: center;
   margin-top: 0 !important;
 }
 .text_block h3 small a {
