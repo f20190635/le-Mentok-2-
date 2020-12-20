@@ -1749,7 +1749,7 @@ THE HEADER ELEMENT
 .header .container-fluid {
   position: relative;
   min-height: 64px;
-  background-color:#8B6F53;
+  background-color:#6E886A;
 }
 .header a:link,
 .header a:visited {
@@ -3450,8 +3450,8 @@ section[class*="_section"] div[class*="_section"] .body-bg_section a i {
 .entry .entry_title {
   position: absolute;
   bottom: 20px;
-  left: 10px;
-  color: #fdfdfd;
+  left: 0px;
+  color: #000000;
   padding: 0 30px;
   -webkit-animation: fadeInDown .4s;
   animation: fadeInDown .4s;
@@ -3464,7 +3464,7 @@ section[class*="_section"] div[class*="_section"] .body-bg_section a i {
   bottom: 20px;
   left: 10px;
   right: 10px;
-  color: #fdfdfd;
+  color: #000000;
   padding: 0 30px;
   text-align: justify;
   visibility: hidden;
