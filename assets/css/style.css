@@ -1739,7 +1739,7 @@ THE HEADER ELEMENT
   padding-bottom: 0px;
   margin-bottom: 0px;
 }
-@@media (max-width: 991px){
+@media (max-width: 991px){
   .portfolio_item{
     padding-top: 0px;
   }
