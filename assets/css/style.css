@@ -2530,7 +2530,7 @@ THE SECONDARY NAV WIDGETIZED AREA
   font-size: 56px;
   font-weight: 900;
   line-height: 1em;
-  color: #fff !important;
+  color: #fff!important;
 }
 .caption .inner .t1 img {
   vertical-align: inherit;
@@ -7737,7 +7737,7 @@ footer .widget_newsletter form button {
 ===============================================================
 */
 footer {
-  background-color: #15151e;
+  background-color: #6E886A;
   color: #fdfdfd;
   -webkit-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;
@@ -7819,7 +7819,7 @@ footer .footer_content ul li a:hover {
   color: #fdfdfd;
 }
 footer .copyright_content {
-  background-color: #13131b;
+  background-color: #6E886A;
 }
 .copyright {
   position: relative;
