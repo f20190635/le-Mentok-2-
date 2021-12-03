@@ -59,6 +59,21 @@
   <link rel="stylesheet" href="assets/css/theme_custom_bootstrap.min.css" type="text/css" media="all">
   <link rel="stylesheet" href="assets/css/style.css" type="text/css" media="all">
 </head>
+<style>
+  @media only screen and (max-width: 600px) {
+    iframe {
+      width: 350px;
+      height: 215px;
+    }
+  }
+
+  @media only screen and (min-width: 600px) {
+    iframe {
+      width: 550px;
+      height: 315px;
+    }
+  }
+</style>
 
 <body style="">
   <div id="page_wrapper">
@@ -341,9 +356,10 @@
               src="decoration-1.png" alt="Image">
           </div>
         </div>
-        <div class="col-md-12 text-center">
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/5OIurZyL70g?autoplay=1&mute=1"
-            title="YouTube video player" frameborder="0"
+
+        <div class="col-md-12 text-center" style="margin: 5px ">
+          <iframe src="https://www.youtube.com/embed/V7qRZvjOg98?autoplay=1&mute=1" title="YouTube video player"
+            frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen></iframe>
         </div>
